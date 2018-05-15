@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180418115318) do
+ActiveRecord::Schema.define(version: 20180412092647) do
 
   create_table "annotations", force: :cascade do |t|
     t.integer  "question_id"
@@ -77,7 +77,7 @@ ActiveRecord::Schema.define(version: 20180418115318) do
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
     t.integer  "sluggable_id",              null: false
-    t.string   "sluggable_type", limit: 40
+    t.string   "sluggable_type"
     t.datetime "created_at"
   end
 
@@ -135,6 +135,28 @@ ActiveRecord::Schema.define(version: 20180418115318) do
   end
 
   add_index "notes", ["answer_id"], name: "index_notes_on_answer_id"
+
+  create_table "notification_acknowledgements", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "notification_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "notification_acknowledgements", ["notification_id"], name: "index_notification_acknowledgements_on_notification_id"
+  add_index "notification_acknowledgements", ["user_id"], name: "index_notification_acknowledgements_on_user_id"
+
+  create_table "notifications", force: :cascade do |t|
+    t.integer  "notification_type"
+    t.string   "title"
+    t.integer  "level"
+    t.text     "body"
+    t.boolean  "dismissable"
+    t.date     "starts_at"
+    t.date     "expires_at"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
 
   create_table "org_identifiers", force: :cascade do |t|
     t.string   "identifier"

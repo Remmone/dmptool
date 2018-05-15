@@ -61,6 +61,7 @@ resources :token_permission_types, only: [:new, :create, :edit, :update, :index,
       put 'update_email_preferences'
       put 'org_swap', constraints: {format: [:json]}
     end
+    post '/acknowledge_notification', to: 'users#acknowledge_notification'
   end
 
   #organisation admin area
@@ -229,6 +230,10 @@ resources :token_permission_types, only: [:new, :create, :edit, :update, :index,
       resources :themes, only: [] do
         get 'index/:page', action: :index, on: :collection, as: :index
       end
+      # Paginable actions for notifications
+      resources :notifications, only: [] do
+        get 'index/:page', action: :index, on: :collection, as: :index
+      end
       # Paginable actions for templates
       resources :templates, only: [] do
         get 'index/:page', action: :index, on: :collection, as: :index
@@ -292,5 +297,6 @@ resources :token_permission_types, only: [:new, :create, :edit, :update, :index,
       resources :orgs, only: [:index, :new, :create, :edit, :update, :destroy]
       resources :themes, only: [:index, :new, :create, :edit, :update, :destroy]
       resources :users, only: [:edit, :update]
+      resources :notifications
     end
 end
