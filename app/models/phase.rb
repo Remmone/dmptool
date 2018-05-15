@@ -8,7 +8,6 @@ class Phase < ActiveRecord::Base
   # Sort order: Number ASC
   default_scope { order(number: :asc) }
 
-  ##
   # Associations
   belongs_to :template
   has_many :sections, -> { order(:number => :asc) }, dependent: :destroy
