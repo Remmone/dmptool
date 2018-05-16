@@ -5,7 +5,7 @@
       <span class="aria-only"><strong><%= "#{a.level.capitalize}:" %></strong></span>
       <span><%= raw a.body %></span>
       <% if a.dismissable? %>
-        <button class="close" data-dismiss="alert" data-url="<%= user_acknowledge_notification_url(a) %>" data-remote="true" data-method="post" data-params="notification_id=<%= a.id %>" aria-label="Close">
+        <button class="close" data-dismiss="alert" data-url="<%= user_acknowledge_notification_path(a) %>" data-remote="true" data-method="post" data-params="notification_id=<%= a.id %>" aria-label="Close">
           <span class="fa fa-times-circle" aria-hidden="true"></span>
         </button>
       <% end %>
