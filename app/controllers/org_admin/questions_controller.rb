@@ -30,7 +30,7 @@ module OrgAdmin
     # GET /org_admin/templates/[:template_id]/phases/[:phase_id]/sections/[:section_id]/questions/new
     def new
       section = Section.includes(phase: :template).find(params[:section_id])
-      question = Question.new(section_id: section.id)
+      question = Question.new({ section_id: section.id, question_format: QuestionFormat.find_by(title: 'Text area') })
       authorize question
       render partial: 'form', locals: { 
         template: section.phase.template, 
