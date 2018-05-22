@@ -5,6 +5,43 @@ module OrgAdmin
     respond_to :html
     after_action :verify_authorized
 
+    # GET /org_admin/templates/[:template_id]/phases/[:phase_id]/sections/[:section_id]/question/[:id]
+    def show
+      question = Question.includes(:annotations, :question_options, section: { phase: :template }).find(params[:id])
+      authorize question
+      render partial: 'show', locals: { 
+        template: question.section.phase.template, 
+        section: question.section,
+        question: question 
+      }
+    end
+    
+    # GET /org_admin/templates/[:template_id]/phases/[:phase_id]/sections/[:section_id]/question/[:id]/edit
+    def edit
+      question = Question.includes(:annotations, :question_options, section: { phase: :template }).find(params[:id])
+      authorize question
+      render partial: 'edit', locals: { 
+        template: question.section.phase.template, 
+        section: question.section,
+        question: question 
+      }
+    end
+    
+    # GET /org_admin/templates/[:template_id]/phases/[:phase_id]/sections/[:section_id]/questions/new
+    def new
+      section = Section.includes(:questions, phase: :template).find(params[:section_id])
+      nbr = section.questions.maximum(:number)
+      question = Question.new({ section_id: section.id, question_format: QuestionFormat.find_by(title: 'Text area'), number: nbr.present? ? nbr + 1 : 1 })
+      authorize question
+      render partial: 'form', locals: { 
+        template: section.phase.template, 
+        section: section,
+        question: question,
+        method: 'post',
+        url: org_admin_template_phase_section_questions_path(template_id: section.phase.template.id, phase_id: section.phase.id, id: section.id)
+      }
+    end
+
     # POST /org_admin/templates/[:template_id]/phases/[:phase_id]/sections/[:section_id]/questions
     def create
       question = Question.new(question_params.merge({ section_id: params[:section_id] }))
@@ -18,6 +55,9 @@ module OrgAdmin
           flash[:alert] = failed_create_error(question, _('question'))
         end
       rescue StandardError => e
+question.valid?
+puts "ERROR: #{e.message}"
+puts question.errors.collect{|e,m| "#{e} - #{m}"}.join(', ')
         flash[:alert] = _('Unable to create a new version of this template.')
       end
       redirect_to edit_org_admin_template_phase_path(template_id: section.phase.template.id, id: section.phase.id, section: section.id)
