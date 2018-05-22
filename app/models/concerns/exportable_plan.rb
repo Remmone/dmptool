@@ -15,7 +15,7 @@ module ExportablePlan
         if headings
           hdrs << [_('Section'),_('Question'),_('Answer')]
         else
-          csv << _('Answer')
+          hdrs << [_('Answer')]
         end
 
         csv << hdrs.flatten
