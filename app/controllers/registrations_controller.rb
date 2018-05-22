@@ -38,6 +38,7 @@ class RegistrationsController < Devise::RegistrationsController
   end
 
   # POST /resource
+  # DMPTool: This method has been heavily customized
   def create
     oauth = {provider: nil, uid: nil}
     IdentifierScheme.all.each do |scheme|
@@ -165,7 +166,7 @@ class RegistrationsController < Devise::RegistrationsController
       session[:locale] = current_user.get_locale unless current_user.get_locale.nil?
       set_gettext_locale  #Method defined at controllers/application_controller.rb
       set_flash_message :notice, success_message(_('profile'), _('saved'))
-      sign_in current_user, bypass: true  # Sign in the user bypassing validation in case his password changed
+      bypass_sign_in(current_user)  # Sign in the user bypassing validation in case his password changed
       redirect_to "#{edit_user_registration_path}\#personal-details", notice: success_message(_('profile'), _('saved'))
 
     else
@@ -189,7 +190,7 @@ class RegistrationsController < Devise::RegistrationsController
       session[:locale] = current_user.get_locale unless current_user.get_locale.nil?
       set_gettext_locale  #Method defined at controllers/application_controller.rb
       set_flash_message :notice, success_message(_('password'), _('saved'))
-      sign_in current_user, bypass: true  # TODO this method is deprecated
+      bypass_sign_in(current_user)   # TODO this method is deprecated
       redirect_to "#{edit_user_registration_path}\#password-details", notice: success_message(_('password'), _('saved'))
 
     else
