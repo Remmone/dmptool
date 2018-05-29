@@ -325,6 +325,10 @@ msgstr "Token da API"
 msgid "About"
 msgstr "Sobre"
 
+# DMPTool (not captured by gettext:find)
+msgid "About the DMPTool"
+msgstr "Sobre o DMPTool"
+
 msgid "Access"
 msgstr "Acesso"
 
@@ -512,6 +516,10 @@ msgstr "Tem certeza de que deseja remover esse plano público? Isso o removerá 
 msgid "Are you sure?"
 msgstr "Tem certeza?"
 
+# DMPTool (not captured by gettext:find)
+msgid "As noted in the CDL privacy policy, this website uses Google Analytics to capture and analyze usage statistics. You may choose to opt-out of having your website activity tracked by Google Analytics. To do so, visit the <a href=\"%{opt_out_url}\">Google Analytics opt-out page</a> and install the add-on for your browser."
+msgstr "Conforme observado na política de privacidade da CDL, este site usa o Google Analytics para capturar e analisar estatísticas de uso. Você pode optar por não ter a atividade do seu website rastreada pelo Google Analytics. Para fazer isso, visite a <a href=\"%{opt_out_url}\"> página de desativação do Google Analytics </a> e instale o complemento para seu navegador."
+
 #, fuzzy
 msgid "Back to customise phase"
 msgstr "fase"
@@ -551,6 +559,10 @@ msgstr "Faça um breve resumo de seu projeto de pesquisa, de forma que as pessoa
 msgid "Browse Standards"
 msgstr ""
 
+# DMPTool (not captured by gettext:find)
+msgid "Can I see customized templates and guidance created by administrators at other organizations?"
+msgstr "É possível ver os modelos customizados e as orientações criados por administradores de outras instituições?"
+
 msgid "Can't find the answer you’re looking for? <a href=\"%{contact_url}\">Contact us</a>"
 msgstr "Não consegue encontrar a resposta que está procurando? <a href=\"%{contact_url}\">Contate-nos</a>"
 
@@ -565,6 +577,10 @@ msgstr "Impossível compartilhar o plano com %{email}; email é o mesmo do propr
 
 msgid "Captcha verification failed, please retry."
 msgstr ""
+
+# DMPTool (not captured by gettext:find)
+msgid "Certain features on this website utilize third party services and APIs such as InCommon/Shibboleth or third party hosting of common JavaScript libraries or web fonts. Information used by an external service is governed by the privacy policy of that service. CDL does not control how information may be used by these services."
+msgstr "Alguns recursos deste site utilizam serviços e APIs de terceiros, como o InCommon/Shibboleth ou hospedagem de terceiros de bibliotecas JavaScript comuns ou fontes da Web. As informações usadas por um serviço externo são regidas pela política de privacidade desse serviço. A CDL não controla como as informações podem ser usadas por esses serviços."
 
 msgid "Change affiliation"
 msgstr "Mudar afiliação"
@@ -738,6 +754,10 @@ msgstr "DMPTool"
 msgid "DMPTool ('the tool', 'the system') is a tool developed by the CDL and the <a href=\"%{dcc_url}\">Digital Curation Centre (DCC)</a> as a shared resource for the research community. It is hosted at CDL by the University of California Curation Center (UC3)."
 msgstr "DMPTool ('a ferramenta', 'o sistema') é uma ferramente desenvolvida pela CDL e o <a href=\"%{dcc_url}\">Digital Curation Centre (DCC)</a> como um recurso compartilhado para a comunidade de pesquisa. Está hospedado na CDL pelo University of California Curation Center (UC3)."
 
+# DMPTool (not captured by gettext:find)
+msgid "DMPTool Background"
+msgstr "História da DMPTool"
+
 msgid "DMPTool News"
 msgstr "Notícias do DMPTool"
 
@@ -749,6 +769,10 @@ msgstr "DMPTool em Números"
 
 msgid "DMPTool is a service of the %{uc3} of the %{cdl}"
 msgstr "DMPTool é um serviço do %{uc3} da %{cdl}"
+
+# DMPTool (not captured by gettext:find)
+msgid "DMPTool participants are institutions, profit and nonprofit organizations, individuals, or other groups that leverage the DMPTool as an effective and efficient way to create data management plans. Our community of participating organizations helps to sustain and support the DMPTool in the following ways:<ul><li>Establish institutional authentication with the DMPTool (Shibboleth)</li><li>Customize the tool with resources, help text, suggested answers, or other information</li><li>Contribute to the maintenance and enhancement of the DMPTool codebase</li><li>Help ensure that the DMPTool maintains its relevance and utility by notifying the DMPTool Helpdesk if:<ul><li>Funders release new requirements that are not reflected in the tool</li><li>Errors, mistakes, or misinformation are discovered in the tool</li><li>The tool's functionality is compromised (i.e., slow response times, poor performance, or software bugs)</li></ul></li></ul>"
+msgstr "Os participantes da DMPTool são instituições, organizações sem fins lucrativos e lucrativas, indivíduos ou outros grupos que aproveitam o DMPTool como uma maneira eficaz e eficiente de criar planos de gerenciamento de dados. Nossa comunidade de organizações participantes ajuda a sustentar e apoiar o DMPTool das seguintes maneiras: <ul> <li> Estabelecer autenticação institucional com o DMPTool (Shibboleth) </ li> <li> Personalize a ferramenta com recursos, texto de ajuda, respostas sugeridas ou outras informações </ li> <li> Contribuir para a manutenção e aprimoramento da base de código do DMPTool </ li> <li> Ajude a garantir que o DMPTool mantenha sua relevância e utilidade notificando o Helpdesk do DMPTool se: <ul> <li > Os financiadores lançam novos requisitos que não estão refletidos na ferramenta </ ​​li> <li> Erros, erros ou desinformação são descobertos na ferramenta </ ​​li> <li> A funcionalidade da ferramenta é comprometida (ou seja, tempos de resposta lentos, falta desempenho ou erros de software) </li> </ul> </li> </ul>"
 
 msgid "DOCX"
 msgstr "DOCX"
@@ -998,11 +1022,23 @@ msgstr "Esqueceu sua senha?"
 msgid "Format"
 msgstr "Formato"
 
+# DMPTool (not captured by gettext:find)
+msgid "Freedom of Information"
+msgstr "Liberdade de Informação"
+
 msgid "Funder"
 msgstr "Órgão Financiador"
 
 msgid "Funder Links"
 msgstr "Links para Órgão Financiador"
+
+# DMPTool (not captured by gettext:find)
+msgid "Funder Requirements"
+msgstr "Exigências do Órgão Financiador"
+
+# DMPTool (not captured by gettext:find)
+msgid "Future enhancements will focus on making DMPs machine actionable so please continue sharing your use cases. We invite you to peruse the DMPRoadmap GitHub wiki to learn how to <a href=\"%{get_involved_url}\">get involved</a> in the project."
+msgstr "Futuros aprimoramentos se concentrarão em tornar a máquina DMPs acionável, portanto, continue compartilhando seus casos de uso. Convidamos você a examinar o wiki do DMPRoadmap GitHub para aprender como <a href=\"%{get_involved_url}\"> se envolver </a> no projeto."
 
 msgid "Get started"
 msgstr "Comece"
@@ -1022,6 +1058,10 @@ msgstr "Ir"
 
 msgid "Go to the blog"
 msgstr "Ir para o blog"
+
+# DMPTool (not captured by gettext:find)
+msgid "Google Analytics opt-out"
+msgstr "Sair do Google Analytics"
 
 msgid "Grant API access"
 msgstr "Autorizar acesso à API"
@@ -1104,6 +1144,10 @@ msgstr "Página Inicial"
 msgid "How can my institution participate in the DMPTool?"
 msgstr "Como minha instituição pode participar do DMPTool?"
 
+# DMPTool (not captured by gettext:find)
+msgid "How do I create guidance? And what are themes?"
+msgstr "Como faço para criar orientações? O que são temas?"
+
 msgid "How long will you save my plans?"
 msgstr "Por quanto tempo vocês guardarão meus planos?"
 
@@ -1113,11 +1157,23 @@ msgstr "Quanto custa usar o DMPTool?"
 msgid "How stable is the data?"
 msgstr "Quão estáveis são os dados?"
 
+# DMPTool (not captured by gettext:find)
+msgid "How to Participate in the DMPTool"
+msgstr "Como participar do DMPTool"
+
 msgid "How to use the API"
 msgstr "Como usar a API"
 
 msgid "I created a test template. How can I delete it?"
 msgstr "Criei um modelo de teste. Como posso apagá-lo?"
+
+# DMPTool (not captured by gettext:find)
+msgid "I created a test template. How can I delete it (or hide it)?"
+msgstr "Criei um plano de teste. Como faço para apagá-lo (ou escondê-lo)?"
+
+# DMPTool (not captured by gettext:find)
+msgid "I have a collaborator. How can we work on the same plan?"
+msgstr "Tenho um colaborador. Como podemos trabalhar no mesmo plano?"
 
 msgid "I'm in a hurry! Is there a quick start guide for creating a data management plan?"
 msgstr "Estou com pressa! Existe um guia rápido para criar um plano de gestão de dados? "
@@ -1164,8 +1220,16 @@ msgstr "Se você deseja mudar sua senha, por favor, complete os campos a seguir.
 msgid "If you would like to modify one of the templates below, you must first change your organisation affiliation."
 msgstr "Se você deseja modificar um dos modelos abaixo, precisa primeiro trocar sua afiliação organizacional.??"
 
+# DMPTool (not captured by gettext:find)
+msgid "In order to help identify and administer your account with the DMPTool, we need to store your email address. We may also use it to contact you to obtain feedback on your use of the tool, or to inform you of the latest developments or releases. The information may be transferred between the CDL and DCC partner organizations but only for legitimate CDL purposes. We will not sell, rent, or trade any personal information you provide to us."
+msgstr "Para ajudar a identificar e administrar sua conta com o DMPTool, precisamos armazenar seu endereço de e-mail. Também podemos usá-lo para entrar em contato com você para obter feedback sobre o uso da ferramenta ou para informá-lo sobre os últimos desenvolvimentos ou versões. As informações podem ser transferidas entre as organizações parceiras CDL e DCC, mas apenas para finalidades legítimas de CDL. Nós não iremos vender, alugar ou trocar qualquer informação pessoal que você nos fornecer."
+
 msgid "Institutional credentials"
 msgstr "Credenciais institucionais"
+
+# DMPTool (not captured by gettext:find)
+msgid "Institutional Signin Enabled"
+msgstr "Login institucional habilitado"
 
 msgid "Instructions"
 msgstr "Instruções"
@@ -1301,6 +1365,10 @@ msgstr "Mais"
 
 msgid "More information about administering the %{tool_name} for users at your organisation is available at the %{help_url}."
 msgstr "Mais informações sobre administrar %{tool_name} para usuários em sua organização estão disponíveis em %{help_url}."
+
+# DMPTool (not captured by gettext:find)
+msgid "More recently the proliferation of open data policies across the globe has led to an explosion of interest in the DMPTool and the UK-based version, DMPonline. In 2016 UC3 and DCC decided to formalize our partnership to codevelop and maintain a single open-source platform. The new platform—DMPRoadmap—is separate from the services each of our organizations runs on top of it. By providing a core infrastructure for DMPs we can extend our reach and move best practices forward, allowing us to participate in a truly global open science ecosystem."
+msgstr "Mais recentemente, a proliferação de políticas de dados abertos em todo o mundo levou a uma explosão de interesse na DMPTool e na versão baseada no Reino Unido, a DMPonline. Em 2016, o UC3 e o DCC decidiram formalizar nossa parceria para co-desenvolver e manter uma única plataforma de código aberto. A nova plataforma - DMPRoadmap - é separada dos serviços que cada uma de nossas organizações executa em cima dela. Ao fornecer uma infra-estrutura básica para os DMPs, podemos ampliar nosso alcance e levar adiante as melhores práticas, permitindo que participemos de um ecossistema verdadeiramente global de ciência aberta."
 
 msgid "My DMP's visibility has changed"
 msgstr "A visibilidade do meu PGD mudou"
@@ -1528,6 +1596,10 @@ msgstr "O modelo original do órgão financiador mudou"
 msgid "Other risks to accessibility"
 msgstr "Outros riscos para a acessibilidade"
 
+# DMPTool (not captured by gettext:find)
+msgid "Our work on the DMPTool is guided by the following principles. Organizations that participate in the DMPTool community are expected to understand and abide by these principles.<ul><li>Continuous improvement of the DMPTool's utility and features</li><li>User-driven requirements and priorities for development</li><li>Enthusiasm for the DMPTool</li><li>Commitment to an open process for development, enhancement, and improvement (see <a href=\"%{panton_url}\">Panton Principles</a>)</li><li>Quality of code and materials created <a href=\"%{contributing_url}\">(Contributor guidelines)</a></li></ul>"
+msgstr "Nosso trabalho na DMPTool é guiado pelos seguintes princípios. Espera-se que as organizações que participam da comunidade DMPTool compreendam e respeitem esses princípios. <Ul> <li> Melhoria contínua do utilitário e dos recursos do DMPTool </ li> <li> Requisitos e prioridades orientados pelo usuário para o desenvolvimento </ li> <li> Entusiasmo para o DMPTool </ li> <li> Compromisso com um processo aberto para desenvolvimento, aprimoramento e aprimoramento (consulte <a href=\"%{panton_url}\"> Princípios do Panton </a>) </ li> <li> Qualidade de código e materiais criados <a href=\"%{contributing_url}\"> (diretrizes do colaborador) </a> </ li> </ ul>"
+
 msgid "Own Templates"
 msgstr "Templates Próprios???"
 
@@ -1554,6 +1626,10 @@ msgstr "A senha e a confirmação devem ser iguais"
 
 msgid "Password confirmation"
 msgstr "Confirmação de senha"
+
+# DMPTool (not captured by gettext:find)
+msgid "Passwords"
+msgstr "Senhas"
 
 msgid "Permissions"
 msgstr "Permissões"
@@ -1764,6 +1840,14 @@ msgstr "PGDs públicos são planos criados com o serviço DMPTool e compartilhad
 msgid "Public or organisational visibility is intended for finished plans. You must answer at least %{percentage}%% of the questions to enable these options. Note: test plans are set to private visibility by default."
 msgstr "Pretende-se atribuir visibilidade organizacional ou pública a planos finalizados. Você precisa responder pelo menos %{percentage}%% das questões para habilitar essas opções. Nota: por padrão, atribui-se visibilidade privada aos planos de teste."
 
+# DMPTool (not captured by gettext:find)
+msgid "Public Plans"
+msgstr "Planos Públicos"
+
+# DMPTool (not captured by gettext:find)
+msgid "Public plans are plans created using the DMPTool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines."
+msgstr "Planos públicos são planos criados usando o serviço DMPTool e compartilhados publicamente por seus proprietários. Eles não são avaliados por qualidade, integridade ou aderência às diretrizes do financiador."
+
 msgid "Public: anyone can view on the web"
 msgstr "Público: qualquer pessoa na web pode ver"
 
@@ -1816,6 +1900,102 @@ msgstr "Perguntas"
 msgid "Quick Start Guide"
 msgstr "Guia de Início Rápido"
 
+# DMPTool (not captured by gettext:find)
+msgid "Q: Are there examples of data management plans?"
+msgstr "Q: Existem exemplos de planos de gestão de dados?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Can I see customized templates and guidance created by administrators at other organizations?"
+msgstr "Q: É possível ver os modelos customizados e as orientações criados por administradores de outras instituições?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Have funders endorsed the DMPTool?"
+msgstr "Q: Os órgãos financiadores aprovaram DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: How can my institution participate in the DMPTool?"
+msgstr "Q: Como minha instituição pode participar do DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: How do I create guidance? And what are themes?"
+msgstr "Q: Como faço para criar orientações? O que são temas?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: How long will you save my plans?"
+msgstr "Q: Por quanto tempo vocês guardarão meus planos?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: How much does it cost to use the DMPTool?"
+msgstr "Q: Quanto custa usar o DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: I created a test plan. How can I delete it (or hide it)?"
+msgstr "Q: Criei um plano de teste. Como faço para apagá-lo (ou escondê-lo)?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: I created a test template. How can I delete it?"
+msgstr "Q: Criei um modelo de teste. Como posso apagá-lo?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: I have a collaborator. How can we work on the same plan?"
+msgstr "Q: Tenho um colaborador. Como podemos trabalhar no mesmo plano?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: I\\'m in a hurry! Is there a quick start guide for creating a data management plan?"
+msgstr "Q: Estou com pressa! Existe um guia rápido para criar um plano de gestão de dados?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What are the benefits of participating in the DMPTool?"
+msgstr "Q: Quais são os benefícios de participar no DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What are the visibility options for my data management plan?"
+msgstr "Q: Quais são as opções de visualização para meu plano de gestão de dados?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What can I do with the DMPTool?"
+msgstr "Q: O que eu posso fazer com o DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What happens when I \"request feedback\" on a plan?"
+msgstr "Q: O que acontece quando eu solicito feedback sobre um plano?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What if I move to a new institution?"
+msgstr "Q: E se eu mudar de instituição?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What is a data management plan (DMP)?"
+msgstr "Q: O que é um plano de gestão de dados (PGD)?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: What\\'s the difference between “sample” and “public” data management plans?"
+msgstr "Q: Qual a diferença entre planos de gestão de dados “amostra” e “público”?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Where can I find help customizing the DMPTool for my institution/organization?"
+msgstr "Q: Onde posso encontrar ajuda para customizar o DMPTool para minha instituição/organização?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Where can I read more about funder requirements for data management plans?"
+msgstr "Q: Onde posso ler mais sobre as exigências dos órgãos de financiamento a respeito de planos de gestão de dados?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Who can help me at my institution?"
+msgstr "Q: Quem pode ajudar-me em minha instituição?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Who can use the DMPTool?"
+msgstr "Q: Quem pode usar o DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Who owns the data management plans created with the DMPTool?"
+msgstr "Q: Quem é proprietário dos planos de gestão criados com DMPTool?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Q: Why am I getting email notifications from the DMPTool?"
+msgstr "Q: Por que estou recebendo notificações do DMPTool por email?"
+
 msgid "Read only"
 msgstr "Somente leitura"
 
@@ -1849,6 +2029,10 @@ msgstr "Solicitante"
 #, fuzzy
 msgid "Restricted access to View All the records"
 msgstr "Ver"
+
+# DMPTool (not captured by gettext:find)
+msgid "Revisions"
+msgstr "Revisões"
 
 msgid "Right"
 msgstr "Direito"
@@ -1892,8 +2076,9 @@ msgstr "Seções"
 msgid "Security check"
 msgstr "Verificação de segurança"
 
-msgid "See a current list of <a href=\"https://dmptool.org/public_orgs\">DMPTool participants</a>."
-msgstr "Veja uma lista atualizada de <a href=\"https://dmptool.org/public_orgs\">participantes do DMPTool</a>."
+# DMPTool (not captured by gettext:find)
+msgid "See a current list of <a href=\"%{participants_url}\">DMPTool participants</a>."
+msgstr "Veja uma lista atualizada de <a href=\"%{participants_url}\">participantes do DMPTool</a>."
 
 msgid "See the full list of participating institutions"
 msgstr "Veja a lista completa de instituições participantes"
@@ -2135,6 +2320,10 @@ msgstr "A CDL mantém seus planos em seu nome, mas eles são sua propriedade e r
 msgid "The current #{scheme.description} iD has been already linked to a user with email #{identifier.user.email}"
 msgstr "\"A iD do #{scheme.description} atual já foi vinculada a um usuário com email #{identifier.user.email}\""
 
+# DMPTool (not captured by gettext:find)
+msgid "The DMPTool is a free, open-source, online application that helps researchers create data management plans. These plans, or DMPs, are now required by many funding agencies as part of the grant proposal submission process. The DMPTool provides a click-through wizard for creating a DMP that complies with funder requirements. It also has direct links to funder websites, help text for answering questions, and resources for best practices surrounding data management."
+msgstr "O DMPTool é um aplicativo on-line gratuito e de código aberto que ajuda os pesquisadores a criar planos de gerenciamento de dados. Esses planos, ou DMPs, são agora exigidos por muitas agências de financiamento como parte do processo de submissão de propostas de subsídios. O DMPTool fornece um assistente de clique para criar um DMP que atenda aos requisitos do financiador. Ele também tem links diretos para sites financiadores, texto de ajuda para responder perguntas e recursos para as melhores práticas relacionadas ao gerenciamento de dados."
+
 msgid "The email address you entered is not registered."
 msgstr ""
 
@@ -2146,6 +2335,10 @@ msgstr "A informação que você insere neste sistema pode ser vista por você, 
 
 msgid "The key %{key} does not have a valid set of object links"
 msgstr "A chave %{key} não tem um conjunto válido de links de objetos"
+
+# DMPTool (not captured by gettext:find)
+msgid "The original contributing institutions were: %{uc3_url} at the %{cdl_url}, %{data_one_url}, %{dcc_url}, %{smithsonian_url}, %{ucla_url}, %{ucsd_url}, %{uoi_url}, and %{uva_url}. Given the success of the first version of the DMPTool, the founding partners obtained funding from the %{sloan_url} to create a second version of the tool, released in 2014."
+msgstr "As instituições que contribuíram originais foram: %{uc3_url} na %{cdl_url}, %{data_one_url}, %{dcc_url}, %{smithsonian_url}, %{ucla_url}, %{ucsd_url}, %{uoi_url} e %{uva_url}. Dado o sucesso da primeira versão do DMPTool, os parceiros fundadores obtiveram financiamento do %{sloan_url} para criar uma segunda versão da ferramenta, lançada em 2014."
 
 msgid "The original DMPTool was a grassroots effort, beginning in 2011 with eight institutions partnering to provide in-kind contributions of personnel and development. The effort was in direct response to demands from funding agencies, such as the National Science Foundation and the National Institutes of Health, that researchers plan for managing their research data. By joining forces the contributing institutions were able to consolidate expertise and reduce costs in addressing data management needs. Representatives from these institutions participate on the <a href=\"%{steering_committee_url}\">DMPTool Steering Committee</a> that maintains monthly calls."
 msgstr "O DMPTool original surgiu de um esforço de base, iniciado em 2011, com uma parceria entre oito instituições que contribuíram com pessoal e desenvolvimento. O esforço foi uma resposta direta às exigências, por parte de agências de fomento como National Science Foundation e National Institutes of Health, de que os pesquisadores planejassem a gestão dos dados de suas pesquisas. Ao unir forças, as instituições conseguiram consolidar o conhecimento sobre gestão de dados e reduzir os custos desse processo. Os representantes dessas intituições participam do <a href=\"%{steering_committee_url}\">DMPTool Steering Committee (Comissão Diretora do DMPTool)</a>, que realiza reuniões mensais."
@@ -2223,6 +2416,10 @@ msgstr "Parece haver um problema com seu logo. Por favor, suba-o novamente."
 msgid "These are rough guidelines to follow to help manage your data files in case you don\\"
 msgstr "Estas são as diretrizes básicas a serem seguidas para ajudar a gerenciar seus arquivos de dados caso você não"
 
+# DMPTool (not captured by gettext:find)
+msgid "Third party APIs"
+msgstr "APIs de terceiros"
+
 msgid "This allows you to order sections."
 msgstr "Isto lhe permite ordenar as seções."
 
@@ -2237,6 +2434,10 @@ msgstr "Esta informação só pode ser modificada por um administrador do sistem
 
 msgid "This plan is based on the \"%{template_title}\" template provided by %{org_name}."
 msgstr "Este plano é baseado no modelo \"%template_title}\" produzido por %{org_name}."
+
+# DMPTool (not captured by gettext:find)
+msgid "This statement was last revised on October 5, 2017 and may be revised at any time. Use of the tool indicates that you understand and agree to these terms and conditions."
+msgstr "Esta declaração foi revisada pela última vez em 5 de outubro de 2017 e pode ser revisada a qualquer momento. O uso da ferramenta indica que você entende e concorda com estes termos e condições."
 
 msgid "This template is new and does not yet have any publication history."
 msgstr "Este modelo é novo e ainda não tem um histórico de publicações."
@@ -2420,6 +2621,10 @@ msgstr "Uso"
 msgid "Use API"
 msgstr "Usar API"
 
+# DMPTool (not captured by gettext:find)
+msgid "Use the contact form below if you are interested in adding your organization."
+msgstr "Use o formulário de contato abaixo se você estiver interessado em adicionar sua organização."
+
 msgid "Use the filters to generate organisational usage statistics for a custom date range. The graphs display new users and plans for your organisation over the past year. You can download a CSV report for each graph."
 msgstr "Use os filtros para gerar estatísticas de uso organizacional para uma faixa de datas customizada??. Os gráficos mostram novos usuários e planos para sua organização ao longo do último ano. Você pode baixar um relatório em formato CSV para cada gráfico."
 
@@ -2505,17 +2710,37 @@ msgstr "Bem-vindo a %{tool_name}, %{username}"
 msgid "Welcome."
 msgstr "Bem-vindo."
 
+# DMPTool (not captured by gettext:find)
+msgid "What are the benefits of participating in the DMPTool?"
+msgstr "Quais são os benefícios de participar no DMPTool?"
+
 msgid "What are the visibility options for my data management plan?"
 msgstr "Quais são as opções de visualização para meu plano de gestão de dados?"
+
+# DMPTool (not captured by gettext:find)
+msgid "What can I do with the DMPTool?"
+msgstr "O que eu posso fazer com o DMPTool?"
 
 msgid "What happens when I “request feedback” on a plan?"
 msgstr "O que acontece quando eu solicito feedback sobre um plano?"
 
+# DMPTool (not captured by gettext:find)
+msgid "What if I move to a new institution?"
+msgstr "E se eu mudar de instituição?"
+
 msgid "What is a data management plan (DMP)?"
 msgstr "O que é um plano de gestão de dados (PGD)?"
 
+# DMPTool (not captured by gettext:find)
+msgid "What is the DMPTool?"
+msgstr "O que é o DMPTool?"
+
 msgid "What research project are you planning?"
 msgstr "Que projeto de pesquisa você está planejando?"
+
+# DMPTool (not captured by gettext:find)
+msgid "What\\'s the difference between “sample” and “public” data management plans?"
+msgstr "Qual a diferença entre planos de gestão de dados “amostra” e “público”?"
 
 msgid "When you create a new phase for your template, a version will automatically be created. Once you complete the form below you will be provided with options to create sections and questions."
 msgstr "Quando você criar uma nova fase para seu modelo, uma versão será criada automaticamente. Assim que você completar o formulário abaixo, aparecerão opções para criar seções e perguntas."
@@ -2523,14 +2748,26 @@ msgstr "Quando você criar uma nova fase para seu modelo, uma versão será cria
 msgid "Where can I find help customizing the DMPTool for my institution/organization?"
 msgstr "Onde posso encontrar ajuda para customizar o DMPTool para minha instituição/organização?"
 
+# DMPTool (not captured by gettext:find)
+msgid "Where can I read more about funder requirements for data management plans?"
+msgstr "Onde posso ler mais sobre as exigências dos órgãos de financiamento a respeito de planos de gestão de dados?"
+
 msgid "Which DMP template would you like to use?"
 msgstr "Qual modelo de PGD você gostaria de usar?"
 
 msgid "Who can help me at my institution?"
 msgstr "Quem pode ajudar-me em minha instituição?"
 
+# DMPTool (not captured by gettext:find)
+msgid "Who can use the DMPTool?"
+msgstr "Quem pode usar o DMPTool?"
+
 msgid "Why am I getting email notifications from the DMPTool?"
 msgstr "Por que estou recebendo notificações do DMPTool por email?"
+
+# DMPTool (not captured by gettext:find)
+msgid "Who owns the data management plans created with the DMPTool?"
+msgstr "Quem é proprietário dos planos de gestão criados com DMPTool?"
 
 msgid "Why document data?"
 msgstr "Por que documentar dados?"
@@ -2667,6 +2904,10 @@ msgstr "Você precisará criar uma conta para poder aceitar seu convite para vis
 
 msgid "Your"
 msgstr "Seu(sua)"
+
+# DMPTool (not captured by gettext:find)
+msgid "Your personal details"
+msgstr "Seus detalhes pessoais"
 
 #, fuzzy
 msgid "Your #{template_type(template)} has been published and is now available to users."
